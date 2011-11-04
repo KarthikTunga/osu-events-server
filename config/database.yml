@@ -1,0 +1,7 @@
+dev:
+  adapter: postgresql
+  database: osuevents
+  username: postgres
+  password: tarun123
+  port: 5432
+  pool: 30

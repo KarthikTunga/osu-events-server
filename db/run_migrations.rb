@@ -7,9 +7,9 @@ puts "Migrating to VERSION: #{VERSION.to_s}" if not VERSION.nil?
 puts 'Starting Migrations'
 load 'db_connect.rb'
 
-ActiveRecord::Base.colorize_logging = false
-logFile = File.open("database.log", "w") 
-ActiveRecord::Base.logger = Logger.new(logFile)
+#ActiveRecord::Base.colorize_logging = false
+#logFile = File.open("database.log", "w") 
+#ActiveRecord::Base.logger = Logger.new(logFile)
 
 puts "ABOUT TO RUN MIGRATIONS"
 #ActiveRecord::Migrator.migrate("migrations")

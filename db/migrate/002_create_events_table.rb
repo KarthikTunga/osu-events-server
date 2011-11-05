@@ -3,7 +3,8 @@ class CreateEvents < ActiveRecord::Migration
     create_table :events do |t|
       t.column :name, :string
       t.column :date, :string
-      t.column :time, :string
+      t.column :time_start, :string
+      t.column :time_end, :string
       t.column :contact_email, :string
       t.column :contact_name, :string
       t.column :contact_number, :string

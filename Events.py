@@ -6,7 +6,6 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import *
 from datetime import date, datetime
 import time
-#import datetime
 
 Base = declarative_base()
 
